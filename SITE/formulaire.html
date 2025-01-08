@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title>QueVoir?</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon"
+        href="https://media.istockphoto.com/id/1061969894/fr/vectoriel/clap-films-logo-icon-design-template-vecteur-isol%C3%A9.jpg?s=170667a&w=0&k=20&c=W_tlufX8ygiO8mZlBHsxb1lKk0nEuaJc7WNI7RwO3D0=" />
+</head>
+
+<body>
+    <div class="menud">
+        <hr>
+        <br>
+        <div class="menu">
+            <a href="accueil.html" style="text-decoration:none"> ACCUEIL</a>
+        </div>
+        <div class="menu">
+            <a href="#series" style="text-decoration:none"> SERIES</a>
+        </div>
+        <div class="menu">
+            <a href="#films" style="text-decoration:none">FILMS</a>
+        </div>
+        <div class="menu">
+            <a href="formulaire.html" style="text-decoration:none" target="_blank">PROPOSITIONS</a>
+        </div>
+        <br><br>
+        <hr>
+    </div>
+    <div class="formulaire">
+        <div class="intro">
+            <p>Bonjour, ici vous pourrez me proposer des films et séries, qui ne se trouvent pas sur le site, que vous
+                avez apprécié.</p>
+            <div id="series">
+                <form name="formserie" action="mailto:sonia.michetti7@gmail.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <legend>Série</legend>
+                        <div class="formudiv">
+                            <h4>Proposez votre série</h4>
+                            <label>Titre : </label><input name="nom" type="text" size="42" autocomplete="off" />
+                            <h4>Plus de détails</h4>
+                            <label>Acteur(s) principal(paux) : </label> <input name="cp" type="text" size="42"
+                                autocomplete="off" />
+                            <br><br><label>Genre(s) : </label><input name="genre" type=text size="50"
+                                autocomplete="off" />
+                            <h4>De quel pays vient cette série?</h4>
+                            <label>Pays: <select name="site">
+                                    <option> France</option>
+                                    <option> USA</option>
+                                    <option> UK</option>
+                                    <option> Espagne</option>
+                                    <option> Corée</option>
+                                    <option selected> Autre</option>
+                                </select>
+                        </div>
+                        <div class="formudiv">
+
+                            <h4>Si vous deviez la noter sur 5 <img
+                                    src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px">
+                            </h4>
+                            <input name="optionradio1" type="radio" value="Option_exclusive_1" />1 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                            <input name="optionradio1" type="radio" value="Option_exclusive_1" />2 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                            <input name="optionradio1" type="radio" value="Option_exclusive_1" />3 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                            <input name="optionradio1" type="radio" value="Option_exclusive_1" />4 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                            <input name="optionradio1" type="radio" value="Option_exclusive_1" />5 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                            <h4>Où regarder?</h4>
+                            <input name="optioncheck" type="checkbox" value="choix1"
+                                id="optioncheck1" /><label>Netflix</label>
+                            <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                            <label>TF1</label>
+                            <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                            <label>Disney+</label>
+                            <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                            <label>Youtube</label>
+                            <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                            <label>Prime Video</label>
+                        </div>
+
+                        <h4>Pourquoi cette série?</h4>
+                        <textarea name="commentaire1" rows="4" cols="120">  </textarea>
+                        <h4>Valider ou effacer tout</h4>
+                        <input type="submit" value="Envoyer" />
+                        <input type="reset" value="Effacer" />
+                    </fieldset>
+                </form>
+            </div>
+            <br>
+            <div id="films">
+                <form name="formfilm" action="mailto:sonia.michetti7@gmail.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <legend>Film</legend>
+                        <div class="formudiv">
+                            <h4>Proposez votre film</h4>
+                            <label>Titre : </label><input name="nom" type="text" size="42" />
+                            <h4>Plus de détails</h4>
+                            <label>Acteur(s) principal(paux) :</label> <input name="cp" type="text" size="42" />
+                            <br><br><label>Genre(s) : </label><input name="genre" type=text size="42" />
+                            <br><br><label>Réalisateur : </label><input name="nom" type="text" size="42" />
+                            <h4>De quel pays vient ce film?</h4>
+                            <label>Pays : <select name="site">
+                                    <option> France</option>
+                                    <option> USA</option>
+                                    <option> UK</option>
+                                    <option> Espagne</option>
+                                    <option> Corée</option>
+                                    <option selected> Autre</option>
+                                </select>
+                        </div>
+                        <div class="formudiv">
+                        <h4>Si vous deviez le noter sur 5 <img
+                                src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px">
+                        </h4>
+                        <input name="optionradio1" type="radio" value="Option_exclusive_1" />1 <img
+                            src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                        <input name="optionradio1" type="radio" value="Option_exclusive_1" />2 <img
+                            src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                        <input name="optionradio1" type="radio" value="Option_exclusive_1" />3 <img
+                            src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                        <input name="optionradio1" type="radio" value="Option_exclusive_1" />4 <img
+                            src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                        <input name="optionradio1" type="radio" value="Option_exclusive_1" />5 <img
+                            src="https://images.emojiterra.com/google/android-pie/512px/2b50.png" width="10px"><br>
+                        <h4>Où regarder?</h4>
+                        <input name="optioncheck" type="checkbox" value="choix1"
+                            id="optioncheck1" /><label>Netflix</label>
+                        <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                        <label>TF1</label>
+                        <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                        <label>Disney+</label>
+                        <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                        <label>Youtube</label>
+                        <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                        <label>Prime Video</label>
+                        <br><input name="optioncheck" type="checkbox" value="choix2" id="optioncheck2" />
+                        <label>Autre</label>
+                        </div>
+                        <h4>Pourquoi ce film?</h4>
+                        <textarea name="commentaire1" rows="4" cols="120">  </textarea>
+                        <h4>Valider ou effacer tout</h4>
+                        <input type="submit" value="Envoyer" />
+                        <input type="reset" value="Effacer" />
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
